@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movies!</title>
+</head>
+<body>
+    <h1>Click on to view the different movies!.</h1>
+    <img src="IMG1.jpg" usemap="#Movie Store" alt="Movieimage" />
+        <map name="Movie Store">
+            <area shape="rect" coords="102,328,338,309" href="https://en.wikipedia.org/wiki/Beast_(2022_Indian_film)" alt="" target="_blank">
+            <area shape="poly" coords="577,190,1023,190,813,55,815,326" href="https://en.wikipedia.org/wiki/Insidious:_The_Red_Door" alt="" target="_blank">
+        </map>
+</body>
+</html>
