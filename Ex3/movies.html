@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Movies</title>
+    <style>
+        /* Your CSS styles go here */
+    </style>
+</head>
+<body>
+    <div class="movie-form-container">
+        <h1>Add a Movie</h1>
+        <form id="movie-form" action="submit_movie.php" method="POST">
+            <label for="title">Title:</label>
+            <input type="text" id="title" name="title" required>
+
+            <label for="genre">Genre:</label>
+            <input type="text" id="genre" name="genre" required>
+
+            <label for="release-date">Release Date:</label>
+            <input type="date" id="release-date" name="release-date" required>
+
+            <button type="submit">Add Movie</button>
+        </form>
+    </div>
+
+    <script>
+        // JavaScript for input validation
+        const movieForm = document.getElementById('movie-form');
+        movieForm.addEventListener('submit', function (event) {
+            const title = document.getElementById('title').value;
+            const genre = document.getElementById('genre').value;
+            const releaseDate = document.getElementById('release-date').value;
+
+            if (!title || !genre || !releaseDate) {
+                alert('Please fill in all fields.');
+                event.preventDefault(); // Prevent form submission
+            }
+        });
+    </script>
+</body>
+</html>
