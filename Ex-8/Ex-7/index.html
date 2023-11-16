@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Online Exam</title>
+</head>
+<body>
+    <h1>Online Exam</h1>
+
+
+    <form action="EvaluateServlet" method="post">
+        <!-- Question 1 (Multiple Choice) -->
+        <h2>Question 1</h2>
+        <p>What is the capital of France?</p>
+        <input type="radio" name="q1" value="Paris" required> Paris
+        <input type="radio" name="q1" value="Berlin"> Berlin
+        <input type="radio" name="q1" value="London"> London
+
+
+        <!-- Question 2 (True/False) -->
+        <h2>Question 2</h2>
+        <p>2 + 2 equals 5. (True/False)</p>
+        <input type="radio" name="q2" value="true"> True
+        <input type="radio" name="q2" value="false" required> False
+
+
+        <!-- Question 3 (Multiple Choice) -->
+        <h2>Question 3</h2>
+        <p>What is the largest planet in our solar system?</p>
+        <input type="radio" name="q3" value="Mercury"> Mercury
+        <input type="radio" name="q3" value="Venus"> Venus
+        <input type="radio" name="q3" value="Jupiter" required> Jupiter
+
+
+        <input type="submit" value="Submit">
+    </form>
+
+
+    <script>
+        // Add a timer (e.g., 10 minutes)
+        var timeLimit = 600;
+        var countdown = setInterval(function () {
+            document.title = "Time Left: " + timeLimit + "s";
+            timeLimit--;
+            if (timeLimit < 0) {
+                clearInterval(countdown);
+                alert("Time's up! Your exam has been submitted.");
+                document.forms[0].submit();
+            }
+        }, 1000);
+    </script>
+</body>
+</html>
