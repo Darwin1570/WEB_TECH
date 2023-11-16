@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<college_achievements>
+<student>
+<name>John Smith</name>
+<year>2nd</year>
+<department>Computer Science and Engineering</department>
+<achievements>
+<achievement>First place in Smart India Hackathon
+2022</achievement>
+<achievement>Recipient of the academic excellence
+award</achievement>
+<achievement>Represented the college in intercollegiate chess
+competition</achievement>
+</achievements>
+</student>
+<student>
+<name>Aditya Chopra</name>
+<year>3rd</year>
+<department>Information Technology</department>
+<achievements>
+<achievement>Runner-up in Business Pitch
+Competition</achievement>
+<achievement>Internship at a Fortune 500
+company</achievement>
+<achievement>Published a research article on
+Springer</achievement>
+</achievements>
+</student>
+<student>
+<name>Maryam Khan</name>
+<year>4th</year>
+<department>Computer Science and Engineering</department>
+<achievements>
+<achievement>Developed a popular mobile app with 10,000+
+downloads</achievement>
+<achievement>Received the Outstanding Performance Award in
+Dance Competition</achievement>
+<achievement>Participated in regional coding
+competition</achievement>
+</achievements>
+</student>
+<student>
+<name>Mohammad Yasir</name>
+<year>1st</year>
+<department>Mechanical Engineering</department>
+<achievements>
+<achievement>Runner-up in National Level Drone
+Competition</achievement>
+<achievement>Presented a paper on thermal nuclear energy at
+Paper Presentation Contest</achievement>
+<achievement>Recipient of the Exceptional Minds
+Scholarship</achievement>
+</achievements>
+</student>
+<student>
+<name>Shreya Srinivasan</name>
+<year>3rd</year>
+<department>Electrical Engineering</department>
+<achievements>
+<achievement>Co-authored a research paper on renewable
+energy</achievement>
+<achievement>Completed an internship at a leading electronics
+company</achievement>
+<achievement>Recipient of the IEEE Student Branch Leadership
+Award</achievement>
+</achievements>
+</student>
+</college_achievements>
