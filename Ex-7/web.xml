@@ -1,0 +1,14 @@
+<servlet>
+    <servlet-name>EvaluateServlet</servlet-name>
+    <servlet-class>EvaluateServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>EvaluateServlet</servlet-name>
+    <url-pattern>/EvaluateServlet</url-pattern>
+</servlet-mapping>
+
+
+
+
+
+
